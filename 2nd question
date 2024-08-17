@@ -1,0 +1,25 @@
+class goa:
+    
+    
+    name=""
+    drink=""
+    def party(self):
+        print("Enjoying party .......")
+        
+    def beach(self):
+        print("Enjoying beach views..")
+        
+ramesh=goa()
+suresh=goa()
+ramesh.party()
+
+ramesh.drink=True
+suresh.drink=False
+
+ramesh.name="Balu"
+print(ramesh.name)
+print("Drinks:", ramesh.drink)
+
+suresh.name="Suresh"
+print(suresh.name)
+print("Drinks:", suresh.drink)
