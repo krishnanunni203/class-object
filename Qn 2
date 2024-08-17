@@ -1,0 +1,11 @@
+class laptop:
+    price=""
+    processor=""
+    ram=""
+ 
+HP= laptop()    
+HP.price="23,000"
+HP.processor="i5"
+HP.ram="4gb"
+
+print("HP",HP.price,HP.processor,HP.ram)
